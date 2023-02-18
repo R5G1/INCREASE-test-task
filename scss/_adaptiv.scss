@@ -1,0 +1,39 @@
+
+body{
+
+    .title-media {
+        @media (max-width:992px) {
+            text-align: center;
+            font-size: calc(35px + (80 - 28) * ((100vw - 320px) / (1400 - 320)));
+            line-height: calc(30px + (90 - 40) * ((100vw - 320px) / (1400 - 320)));
+        }
+    }
+    
+    .text-media {
+        @media (max-width:992px) {text-align: center;
+            font-size: calc(14px + (18 - 16) * ((100vw - 320px) / (1400 - 320)));
+            line-height: calc(15px + (28 - 19) * ((100vw - 320px) / (1400 - 320)));
+        }
+    }
+
+    @media (max-width:1200px){
+        
+    }
+    @media (max-width:992px){
+
+    }
+    @media (max-width:768px){
+        
+    }
+    @media (max-width:420px){
+        
+    }
+
+    @media (max-width:520px){
+
+    }
+    @media (max-width:420px){
+
+    }
+
+}
